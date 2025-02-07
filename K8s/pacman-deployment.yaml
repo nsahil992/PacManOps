@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pacman-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: pacman
+  template:
+    metadata:
+      labels:
+        app: pacman
+    spec:
+      containers:
+      - name: pacman
+        image: nsahil992/pacman-game:latest
+        ports:
+        - containerPort: 80
+
