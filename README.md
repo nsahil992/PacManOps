@@ -1,6 +1,6 @@
 # PacManOps
 
-![PacManOps](Pacman-Preview.mov)  
+![PacManOps](Pacman-Preview.gif)  
 
 ## 🎮 About PacManOps
 PacManOps is a DevOps-focused deployment project that containerizes and automates the deployment of the classic Pac-Man game using modern cloud and infrastructure-as-code (IaC) technologies. It leverages **Docker**, **Kubernetes**, **Terraform**, and **AWS** to provide a scalable and automated deployment environment. The project aims to integrate **CI/CD pipelines**, **monitoring with Prometheus and Grafana**, and **infrastructure automation**.
